@@ -180,7 +180,7 @@ fu_vli_usbhub_firmware_parse (FuFirmware *firmware,
 		}
 		/* VL819~VL822 == VT3518 */
 		if (tmp == 0xF0) {
-            /* VL819 to be added */
+			/* VL819 to be added */
 			self->device_kind = FU_VLI_DEVICE_KIND_VL822;
 		} else {
 			/* Q7/Q8 requires searching two addresses for offset value */
